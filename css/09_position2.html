@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 2000px;
+            background-color: cyan;
+        } 
+        /* .container{
+            margin-top: 150px;
+            margin-left: 40%;
+        }
+        .one{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            position: absolute;
+        }
+        .two{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            position: absolute;
+            z-index: -1;
+        }
+        .three{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            position: absolute;
+            z-index: -2;
+        } */
+        :root{
+            --text-danger: red;
+            --text-warning: yellow;
+            --background-white: white;
+            --background-dark: black;
+            --text-white: white;
+            --text-dark: black;
+        }
+        h1{
+            color: var(--text-danger);
+        }
+        .light-btn{
+            background-color: burlywood;
+            color: white;
+            width: 100px;
+            border: none;
+            border-radius: 20px;
+            padding: 8px;
+        }
+        .dark-btn{
+            background-color: green;
+            width: 100px;
+            border: none;
+            border-radius: 20px;
+            padding: 8px;
+        }
+        .fa-solid{
+            margin-right: 2px;
+        }
+        .light-btn:focus{
+            background-color: var(--background-white);
+            color: var(--text-dark);
+        }
+        .dark-btn:focus{
+            background-color: var(--background-dark);
+            color: var(--text-white);
+        }
+        h2{
+            color: var(--text-warning);
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div> -->
+    <div class="content">
+        <h1>Hello World</h1>
+    </div>
+    <button class="light-btn"><i class="fa-solid fa-toggle-off"></i>Light Mode</button>
+    <button class="dark-btn"><i class="fa-solid fa-toggle-on"></i>Dark Mode</button>
+    <h2>Welcome from coding world</h2>
+</body>
+</html>

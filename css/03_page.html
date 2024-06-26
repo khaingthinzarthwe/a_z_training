@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Kavoon&family=Lobster&display=swap');
+        /* font-family: 'Bungee Spice', cursive;
+        font-family: 'Kavoon', cursive;
+        font-family: 'Lobster', cursive; */
+        body{
+            background-color: cadetblue;
+        }
+        .content{
+            background-color: aliceblue;
+            width: 600px;
+            height: 400px;
+            margin: auto;
+            text-align: center;
+            border-radius: 20px;
+            margin-top: 30px;
+            transition: 0.5s;
+        }
+        .content:hover{
+            background-color: rgb(66, 64, 64);
+            color: white;
+        }
+        .title{
+            padding-top: 10px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .para{
+            text-align: justify;
+            padding-left: 10px;
+            padding-right: 10px;
+            line-height: 20px;
+        }
+        .btn{
+            background-color: green;
+            border: none;
+            color:white;
+            padding: 16px 32px;
+            text-align: center;
+            border-radius: 15px;
+            display: inline-block;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: white;
+            color: black;
+            border: 2px solid green;
+        }
+        .btn:active{
+            background-color: yellowgreen;
+        }
+        .text{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .name{
+            width: 200px;
+            height: 30px;
+            border: none;
+            border-radius: 20px;
+        }
+        .name:focus{
+            background-color: grey;
+        }
+        .title::before{
+            content: "Kdrama ";
+            font-size: 30px;
+            font-weight: bold;
+            color: blueviolet;
+        }
+        .para::after{
+            content: "Do you like this drama";
+            font-weight: bold;
+            background-color: red;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        img{
+            width: 300px;
+            border-radius: 20px;
+            box-shadow: 20px 20px 20px rgb(122, 47, 59), 20px 20px 20px #9164fc,20px 20px 20px rgb(4, 175, 95);
+        }
+        .container h2{
+            margin-top: 30px;
+            font-family: 'Kavoon', cursive;
+            text-shadow: 8px 8px 10px rgb(122, 47, 59);
+        }
+    </style>
+</head>
+<body style="height: 2000px;">
+    <div class="content">
+        <div class="title">Guardian: The Lonely and Great God (Goblin)</div>
+            <p class="para">Guardian: The Lonely & Great God is quite simply one of the best Korean dramas ever made.
+                Armed with excellent cinematography, crackling chemistry between its main cast and one of the best soundtracks in this medium,
+                Guardian(often referred to as Goblin) is a wonderful journey from start to finish and a must-watch for fantasy fans.
+                At the heart of this one lies Dokkaebi (Kim Shin), a 939-year-old immortal who happens to be best friends with 
+                a Grim Reaper and a student called Eun-Tak with a tragic past.  As fate would have it, Eun-Tak happens to be his bride who’s destined to break Shin’s immortal curse.
+                The story takes many twists and turns along the way but manages to nail every single part of its production. When it comes to gold-standard K-Dramas, this one sets a very high bar.
+            </p>
+            <button class="btn btn-hover">Read More</button>
+    </div>
+    <div class="text">
+        <input type="text" class="name">
+    </div><br>
+    <div class="container">
+        <img src="../img/00film.jpg" alt="">
+        <h2>Emily in Paris</h2>
+    </div>
+</body>
+</html>

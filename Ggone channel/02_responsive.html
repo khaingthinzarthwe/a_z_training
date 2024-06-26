@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Page</title>
+    <style>
+        .container{
+            background-color: burlywood;
+            width: 100%;
+            height: 300px;
+            font-size: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media (max-width : 1080px){
+            .container{
+                background-color: rgb(240, 156, 47);
+                font-size: 70px;
+            }
+        }
+        @media (max-width : 700px){
+            .container{
+                background-color: rgb(166, 240, 47);
+                font-size: 50px;
+            }
+        }
+        @media (max-width : 400px){
+            .container{
+                background-color: rgb(240, 53, 47);
+                font-size: 30px;
+            }
+        }
+        @media (max-width : 320px){
+            .container{
+                background-color: rgb(47, 240, 182);
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">Hello World</div>
+</body>
+</html>

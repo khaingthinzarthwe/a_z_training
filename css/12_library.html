@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <!-- image hover link -->
+    <link rel="stylesheet" href="../library/imagehover.css-master/imagehover.css-master/css/imagehover.min.css">
+    <!-- animate.css cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        body{
+            height: 2000px;
+        }
+        .container{
+            columns: 300px 2;
+        }
+        .content1 img{
+            width: 200px;
+        }
+        .content2{
+            padding-top: 70px;
+        }
+        .content2 img{
+            width: 100px;
+        }
+        .content3{
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .content3 img{
+            width: 300px;
+        }
+        .content4{
+            background-color: cyan;
+            width: 600px;
+            height: 200px;
+            margin-top: 30px;
+            margin: auto;
+            text-align: center;
+            line-height: 200px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px rgb(13, 153, 153);
+            animation: swing;
+            animation-duration: 3s;
+        }
+        .back-In-Down{
+            animation: backInDown;
+            animation-duration: 3s;
+        }
+        .zoom-In-Up{
+            animation: zoomInUp;
+            animation-duration: 3s;
+        }
+        .slide-In-Left{
+            animation: slideInLeft;
+            animation-duration: 3s;
+        }
+        .slide-In-Right{
+            animation: slideInRight;
+            animation-duration: 3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content1">
+            <img src="../svgPicture/undraw_blooming_re_2kc4.svg" alt="">
+            <img src="../svgPicture/undraw_a_moment_to_relax_re_v5gv.svg" alt="">
+            <img src="../img/nextImg/ig5.jpg" alt="">
+        </div>
+        <div class="content2">
+            <img src="../library/feather/cloud-drizzle.svg" alt="">
+            <img src="../library/feather/cloud-lightning.svg" alt="">
+            <img src="../library/feather/cloud-off.svg" alt="">
+            <img src="../library/feather/cloud-rain.svg" alt="">
+            <img src="../library/feather/cloud-snow.svg" alt="">
+            <img src="../library/feather/cloud.svg" alt="">
+            <i data-feather="circle"></i>
+        </div>
+    </div>
+    <hr>
+    <div class="content3">
+        <figure class="imghvr-shutter-in-vert">
+            <img src="../img/06film.jpg" alt="example-image" class="">
+            <figcaption>
+              <h3 class="ih-fade-down ih-delay-sm ">Stranger Things</h3>
+              <p class="ih-zoom-in ih-delay-md">
+                <i>"I have the simplest tastes, I am always satisfied with the best."</i>
+              </p>
+            </figcaption>
+            <a href="#"></a>
+        </figure>
+        <figure class="imghvr-flip-horiz">
+            <img src="../img/03book.jpg" alt="example-image" class="">
+            <figcaption>
+              <h3 class="ih-fade-down ih-delay-sm">MAAME</h3>
+              <p class="ih-zoom-in ih-delay-md">
+                <i>"I have the simplest tastes, I am always satisfied with the best."</i>
+              </p>
+            </figcaption>
+            <a href="#"></a>
+        </figure>
+    </div><hr>
+    <div class="content4">
+        <h1 class="back-In-Down">Let the More Loving One be Me</h1>
+    </div>
+    <div class="content4">
+        <h1 class="zoom-In-Up">Let the More Loving One be Me</h1>
+    </div>
+    <div class="content4">
+        <h1 class="slide-In-Left">Let the More Loving One be Me</h1>
+    </div>
+    <div class="content4">
+        <h1 class="slide-In-Right">Let the More Loving One be Me</h1>
+    </div>
+</body>
+</html>

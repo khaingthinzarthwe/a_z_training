@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+        .table{
+            width: 70%;
+            border-collapse: collapse;
+            border: 1px solid #ff7f5030;
+        }
+        .table thead{
+            background-color: coral;
+            color: white;
+            font-size: large;
+            font-weight: bold;
+            text-align: left;
+        }
+        .table tr, .table th, .table td{
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .table tr:nth-child(even){
+            background-color: #ff7f5080;
+        }
+        .table tr:hover{
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Network</th>
+                <th>Best Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The Innocent Man</td>
+                <td>KBS2</td>
+                <td>18.3%</td>
+            </tr>
+            <tr>
+                <td>My Love From The Star</td>
+                <td>SBS</td>
+                <td>28.1%</td>
+            </tr>
+            <tr>
+                <td>Misaeng: Incomplete Life</td>
+                <td>tvN</td>
+                <td>8.4%</td>
+            </tr>
+            <tr>
+                <td>Kill Me, Heal Me</td>
+                <td>MBC</td>
+                <td>11.5%</td>
+            </tr>
+            <tr>
+                <td>Guardian: The Lonely and Great God</td>
+                <td>tvN</td>
+                <td>20.5%</td>
+            </tr>
+            <tr>
+                <td>Fight for My Way</td>
+                <td>KBS2</td>
+                <td>13.8%</td>
+            </tr>
+            <tr>
+                <td>Mr. Sunshine</td>
+                <td>tvN</td>
+                <td>18.1%</td>
+            </tr>
+            <tr>
+                <td>When the Camellia Blooms</td>
+                <td>KBS2</td>
+                <td>23.8%</td>
+            </tr>
+            <tr>
+                <td>Hospital Playlist</td>
+                <td>tvN</td>
+                <td>14.1%</td>
+            </tr>
+            <tr>
+                <td>Our Beloved Summer</td>
+                <td>SBS</td>
+                <td>5.3%</td>
+            </tr>
+            <tr>
+                <td>Twenty Five Twenty One</td>
+                <td>tvN</td>
+                <td>11.5%</td>
+            </tr>
+        </tbody>
+
+    </div>
+    
+</body>
+</html>

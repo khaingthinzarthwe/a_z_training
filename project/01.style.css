@@ -1,0 +1,46 @@
+/* font-family: 'Bungee Spice', cursive;
+font-family: 'Kavoon', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Kavoon&family=Lobster&family=Poppins:ital,wght@1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --main-color: burlywood;
+    --text-color: black;
+}
+body{
+    background-color: #fff;
+    height: 2000px;
+}
+header{
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-color);
+    width: 100%;
+    padding: 20px 100px;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    color: var(--text-color);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 3rem;
+    list-style-type: none;
+}
+.navbar a{
+    color: var(--text-color);
+}
+.search{
+    display: flex;
+    align-items: center;
+}

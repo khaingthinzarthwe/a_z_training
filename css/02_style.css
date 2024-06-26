@@ -1,0 +1,58 @@
+h3{
+    /* color: blue;
+    font-style: italic;
+    */
+    text-align: center; 
+    font-family: 'Bungee Spice', cursive;
+}
+a{
+    text-decoration: none;
+}
+.old
+{
+    text-align: justify;
+    text-transform: lowercase;
+    line-height: 36px;
+    word-spacing: 5px;
+    white-space: normal;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: "Brush Script MT", cursive;
+}
+.new{
+    font-family: 'Caveat', cursive;
+    font-size: large;
+}
+ul{
+    list-style-type: none;
+}
+h1{
+    background-color: aqua;
+    display: inline;
+    width: 50%;
+    height: 30%;
+}
+span{
+    background-color: brown;
+    display: block;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    margin-top: 5px;
+}
+small{
+    background-color: burlywood;
+    font-size: x-large;
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    padding-top: 60px;
+}
+p{
+    background-color: aquamarine;
+    display: inline-block;
+}
+strong{
+    display: none;
+}

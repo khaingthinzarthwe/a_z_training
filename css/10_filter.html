@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            height: 2000px;
+        }
+        .container{
+            display: flex;
+        }
+        .container img{
+            width: 400px;
+            height: 200px;
+            filter: opacity(20%);
+            /* filter: brightness(0.4); */
+        }
+        .container img:hover{
+            /* filter: brightness(1); */
+            filter: drop-shadow(16px 16px 10px red) invert(20%);
+        }
+        .content{
+            columns: 300px 3;
+            text-align: justify;
+            line-height: 2;
+            background-color: rgb(238, 238, 150);
+            border: 1px solid black;
+            column-gap: 30px;
+            column-rule: 5px double #ff00ff;
+        }
+        .content h3{
+            column-span: all;
+        }
+        .content1{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        .content2{
+            width: 300px;
+            min-height: 200px;
+            border: 4px solid pink;
+            margin: 10px 40px;
+            /* overflow: scroll; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="../img/ig4.jpg" alt="">
+    </div><br><hr>
+    <h1>Column Property</h1>
+    <div class="content">
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h3>
+        Ratione vitae assumenda ipsa explicabo rem similique mollitia ipsam fuga velit eveniet minima cum, 
+        sapiente sint sed dignissimos aliquid labore molestiae veniam?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, vitae placeat. Doloribus earum vitae 
+        facilis qui distinctio vero? Aperiam non magni natus et enim modi, perferendis reiciendis eius eum ipsam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt id excepturi, 
+        voluptas expedita voluptatum at eum nesciunt ipsam nihil provident repudiandae quos aut enim sed nostrum 
+        temporibus asperiores? Totam, non.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, sunt unde? Facilis rerum, doloremque ducimus 
+        dignissimos saepe animi nihil pariatur dolores cum exercitationem debitis quas ex minima. Perspiciatis, 
+        ea nemo! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quibusdam est pariatur numquam autem doloremque 
+        ab aspernatur nobis quod blanditiis deleniti eum, doloribus quae similique recusandae. Rerum, veritatis repellendus. 
+    </div><hr><br>
+    <div class="content1"></div>
+    <div class="content2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolores nihil vero laudantium quibusdam et distinctio fugit, 
+        unde eveniet deleniti, aspernatur ipsam asperiores accusantium quia cum ipsum, dolorum amet repellat? Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Nisi quod quam laudantium optio, voluptatem, nulla maxime culpa deleniti facilis ab itaque iste? Laudantium soluta ipsa, 
+        voluptas quaerat maxime modi tempora?Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quaerat aliquam at quia reprehenderit sequi
+         eveniet eos omnis iure officia officiis, ipsa facilis, nesciunt, repellendus maiores quidem ducimus sint modi!</div>
+</body>
+</html>
